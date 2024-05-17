@@ -1,0 +1,67 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: sans-serif, 'Poppins';
+            }
+            
+            .container {
+                width: 100%;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                background-image: url('https://i.pinimg.com/originals/57/bf/f8/57bff8aea4fef363ab1f8fac31c88638.gif');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            
+            .calculator {
+                background: #3a4452;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            
+            .calculator form input {
+                border: 0;
+                outline: 0;
+                width: 60px;
+                height: 60px;
+                border-radius: 10px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+                background: transparent;
+                font-size: 20px;
+                color: #fff;
+                cursor: pointer;
+                margin: 10px;
+            }
+            
+            form .display {
+                display: flex;
+                justify-content: flex-end;
+                margin: 20px 0;
+            }
+            
+            form .display input {
+                text-align: center;
+                flex: 1;
+                font-size: 45px;
+                border: 1px solid #18ac8c;
+            }
+            
+            form input.equal {
+                width: 145px;
+            }
+            
+            form input.operator {
+                color: #33ffd8;
+            }
+            
+            video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -100;
+            }
